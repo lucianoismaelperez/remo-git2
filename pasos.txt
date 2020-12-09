@@ -1,0 +1,27 @@
+1) cloné el repo
+2) hice un git status y git log que muestra el único commit que habíaen el remoto
+
+3)creé una rama desarrollo y modifiqué un archivo en esa rama, luego le hice add y commit
+4) cambié a master, hice un pull y merge de la rama desarrollo a la master, y le hice un git log 
+para ver si había traído bien el commit.
+
+5)hice git remote-v para ver que estuviesen bien enlazadas, git log para ver los commits que tengo en el local 
+y git push para enviar la modificación que había mergeado de desarrollo a master.
+
+6) pull para traerme nuevos cambios del remoto
+
+7)paso a rama desarrollo, y nuevo add y commit de otra modificación
+
+8)creo archivo .gitignore y le indico que ignore la carpeta /direct
+9)hago add y commit de archivo .gitignore
+10)push de commit de gitignore
+
+11)elimino imagen con git -rm y le hago commit
+
+12)hago un add y commit que luego voy a desahacer con revert
+13)log que muestra que se deshizo el commit
+
+14)elimino rama desarrollo
+
+15)hago reset --hard para eliminar archivo del área de preparación
+16)hago git status para mostrar que el archivo no está más en el área de preparación
